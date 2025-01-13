@@ -1,27 +1,55 @@
 {
     "customer": {
-        "name": "Home Services Company",
-        "street": "123 Any Street",
-        "city": "Anywhere",
-        "state": "CA",
-        "zip": "12345",
-        "country":"USA",
+        "name": "Facturas de Argentina",
+        "street": "Av. Corrientes 1234",
+        "addressLine2": "Piso 5",
+        "city": "Buenos Aires",
+        "state": "CABA",
+        "zip": "1043",
+        "country": "Argentina",
         "signer": {
-            "email": "johnnyechostone@gmail.com",
-            "firstName": "John",
-            "lastName": "Echostone"
+            "email": "example@facturas.com.ar",
+            "firstName": "Juan",
+            "lastName": "Pérez"
         }
     },
     "company": {
-        "name": "Projected Consultants",
+        "name": "Facturas de Argentina",
+        "address": {
+            "line1": "Av. Corrientes 1234",
+            "line2": "Piso 5",
+            "city": "Buenos Aires",
+            "state": "CABA",
+            "zip": "1043"
+        },
         "signer": {
-            "email": "maryburostone@gmail.com",
-            "firstName": "Mary",
-            "lastName": "Burostone"
+            "email": "legal@facturas.com.ar",
+            "firstName": "María",
+            "lastName": "González"
         }
     },
     "conditions": {
         "includeGeneralTerms": true,
-        "includeConsumerDiscloure": true
-    }
+        "includeConsumerDisclosure": true,
+        "definitions": [
+            { "definition": "Contract generation is now dynamic and integrated with CRM systems." },
+            { "definition": "Templates consolidate state-specific clauses for error-free automation." },
+            { "definition": "Documents are stored as searchable PDFs for audits and compliance." }
+        ]
+    },
+    "policies": {
+        "Shipping": "Standardized shipping terms are applied across regions, improving efficiency.",
+        "Delivery": "Digital delivery reduces delays and manual handling risks.",
+        "Return": "Custom clauses allow client-specific return conditions.",
+        "Warranty": [
+            "Facturas de Argentina warrants all services comply with local laws.",
+            "Custom warranties can be dynamically inserted per client.",
+            "Proof of purchase is required for claims."
+        ]
+    },
+    "GeneralProvisions": [
+        { "provision": "Contracts adhere to CABA laws and arbitration rules." },
+        { "provision": "Dynamic templates simplify regional compliance." },
+        { "provision": "All agreements include clear audit trails." }
+    ]
 }
